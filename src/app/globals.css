@@ -4,10 +4,10 @@
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
+    /* --background: 0, 0%, 4%;
     --foreground: 222.2 84% 4.9%;
 
-    --card: 0 0% 100%;
+    --card: 0, 0%, 4%;
     --card-foreground: 222.2 84% 4.9%;
 
     --popover: 0 0% 100%;
@@ -28,14 +28,17 @@
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 214.3 31.8% 91.4%;
+    --border: 0, 0%, 31%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 222.2 84% 4.9%; */
 
     --radius: 0.5rem;
+
+    /* --gray-300: 0, 0%, 31%;
+    --gray-400: 210 40% 96.1%; */
   }
 
-  .dark {
+  /* .dark {
     --background: 222.2 84% 4.9%;
     --foreground: 210 40% 98%;
 
@@ -63,10 +66,10 @@
     --border: 217.2 32.6% 17.5%;
     --input: 217.2 32.6% 17.5%;
     --ring: 212.7 26.8% 83.9%;
-  }
+  } */
 }
 
-@layer base {
+/* @layer base {
   * {
     @apply border-border;
   }
@@ -77,4 +80,4 @@
   html {
     @apply h-full;
   }
-}
+} */
